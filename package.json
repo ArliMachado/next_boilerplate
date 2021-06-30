@@ -13,7 +13,7 @@
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
-    "postprepare": "husky install"
+    "postinstall": "git init && husky install"
   },
   "husky": {
     "hooks": {
